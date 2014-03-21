@@ -9,6 +9,7 @@ public class Account {
 		return this.progress;
 	}
 
-
-
+	public void setMediaListProgress(MediaListProgress newProgress) {
+		this.progress = newProgress;
+	}
 }
