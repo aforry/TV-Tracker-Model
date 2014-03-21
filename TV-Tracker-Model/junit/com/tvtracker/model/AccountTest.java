@@ -17,6 +17,6 @@ public class AccountTest {
 	
 	@Test
 	public void testGetMediaListProgress() {
-		
+		assertEquals(testProgress, austin.getMediaListProgress());
 	}
 }
