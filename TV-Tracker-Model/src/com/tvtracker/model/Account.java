@@ -8,7 +8,12 @@ public class Account {
 	public MediaListProgress getMediaListProgress() {
 		return this.progress;
 	}
-
-
-
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
 }
