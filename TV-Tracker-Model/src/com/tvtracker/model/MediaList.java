@@ -12,4 +12,5 @@ public class MediaList {
 	public void addMedia(Media media) {
 		this.list.add(media);
 	}
+	
 }
