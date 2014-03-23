@@ -13,4 +13,8 @@ public class MediaList {
 		this.list.add(media);
 	}
 	
+	public ArrayList<Media> getMediaList() {
+		return this.list;
+	}
+	
 }
