@@ -24,6 +24,6 @@ public class MediaListTest {
 	
 	@Test
 	public void testGetMediaList() {
-		fail("implement this");
+		assertEquals(testMediaList, testMediaList.getMediaList());
 	}
 }
